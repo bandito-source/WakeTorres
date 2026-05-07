@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wake Torres — Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Wake Torres</a>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <section class="hero">
+      <span class="deco deco-1">✦</span>
+      <span class="deco deco-2">◐</span>
+
+      <p class="eyebrow">Hello, world — welcome in</p>
+      <h1>I'm Wake Torres, <br>a <span class="squiggle">curious</span> marketer <br>with a love for the&nbsp;craft.</h1>
+      <p class="tagline">Marketing junior at the University of Kansas, currently consulting at Replay Lounge in Lawrence. I'm into <em class="highlight">market research, brand strategy, and figuring out what makes people tick</em>.</p>
+
+      <div class="btn-row">
+        <a href="portfolio.html" class="btn">See my work →</a>
+        <a href="contact.html" class="btn btn-secondary">Say hi</a>
+      </div>
+    </section>
+
+    <section>
+      <p class="eyebrow">Where to next</p>
+      <div class="menu-cards">
+        <a href="about.html" class="menu-card">
+          <span class="num">01 / about</span>
+          <h3>About Me</h3>
+          <p>Who I am, where I'm from, and what I'm chasing.</p>
+        </a>
+        <a href="portfolio.html" class="menu-card">
+          <span class="num">02 / work</span>
+          <h3>Portfolio</h3>
+          <p>Marketing projects, campaigns, and case studies.</p>
+        </a>
+        <a href="cv.html" class="menu-card">
+          <span class="num">03 / cv</span>
+          <h3>Resume / CV</h3>
+          <p>The full picture. PDF and LinkedIn inside.</p>
+        </a>
+        <a href="contact.html" class="menu-card">
+          <span class="num">04 / hi</span>
+          <h3>Contact</h3>
+          <p>Email, socials, and how to reach me.</p>
+        </a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Adilberto "Wake" Torres IV · Built with HTML, CSS &amp; vibes</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

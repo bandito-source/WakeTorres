@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wake Torres — CV / Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Wake Torres</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="cv.html" class="active">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <p class="eyebrow">Resume / Curriculum Vitae</p>
+    <h1>The <span class="squiggle">receipts</span>.</h1>
+    <p class="tagline">A more formal version of the story so far. Want the PDF or LinkedIn version? Grab them below.</p>
+
+    <div class="btn-row">
+      <a href="resume.pdf" class="btn" download>↓ Download PDF</a>
+      <a href="https://www.linkedin.com/in/waketorres" class="btn btn-secondary" target="_blank" rel="noopener">View on LinkedIn ↗</a>
+    </div>
+
+    <section class="cv-section">
+      <h2>Education</h2>
+
+      <div class="cv-item">
+        <div class="when">2023 — May 2027</div>
+        <div>
+          <h3>B.S. in Marketing</h3>
+          <p class="where">University of Kansas, Lawrence</p>
+          <p>Currently a junior pursuing a Bachelor of Science in Marketing. Active in the KU Investment Club and previously KU Roundnet.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <h2>Experience</h2>
+
+      <div class="cv-item">
+        <div class="when">March 2026 — Present</div>
+        <div>
+          <h3>Marketing Consultant</h3>
+          <p class="where">Replay Lounge · Lawrence, KS</p>
+          <p>Conducted market research using Qualtrics survey software, assisted in creating physical and online advertisements, and co-developed a new marketing strategy aimed at shifting the brand's existing demographic.</p>
+        </div>
+      </div>
+
+      <div class="cv-item">
+        <div class="when">May 2025 — Aug 2025</div>
+        <div>
+          <h3>Marketing Intern</h3>
+          <p class="where">Next Generation HR · Missoula, MT</p>
+          <p>Researched industry data and presented insights through clear slide decks. Supported event planning and coordination for webinars and community outreach. Helped develop and execute social media content strategy across Instagram, Facebook, and LinkedIn.</p>
+        </div>
+      </div>
+
+      <div class="cv-item">
+        <div class="when">May 2024 — Aug 2024</div>
+        <div>
+          <h3>Guest Service Associate</h3>
+          <p class="where">Casa Bonita Family Restaurant · Denver, CO</p>
+          <p>Oversaw a team of 4–8 Guest Service Associates by delegating food orders based on individual strengths to expedite service during peak times. Communicated with 2,500+ daily customers about restaurant procedures, showtimes, and history. Collaborated with a 150+ person team to maintain Casa Bonita's "different world" experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Marketing &amp; Research</h4>
+          <ul>
+            <li>Qualtrics</li>
+            <li>Market research</li>
+            <li>Brand strategy</li>
+            <li>Social content</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Tools</h4>
+          <ul>
+            <li>Excel</li>
+            <li>PowerPoint</li>
+            <li>Canva</li>
+            <li>TouchDesigner</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Technical</h4>
+          <ul>
+            <li>Python (Colaboratory)</li>
+            <li>Data presentation</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Soft Skills</h4>
+          <ul>
+            <li>Team leadership</li>
+            <li>Customer communication</li>
+            <li>Presenting insights</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <h2>Activities</h2>
+      <div class="cv-item">
+        <div class="when">2024 — Present</div>
+        <div>
+          <h3>KU Investment Club</h3>
+          <p class="where">University of Kansas · Lawrence, KS</p>
+          <p>Active member exploring markets, financial analysis, and the brand side of finance.</p>
+        </div>
+      </div>
+
+      <div class="cv-item">
+        <div class="when">Aug 2024 — Apr 2025</div>
+        <div>
+          <h3>KU Roundnet</h3>
+          <p class="where">University of Kansas · Lawrence, KS</p>
+          <p>Member of the KU Roundnet (Spikeball) club.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Adilberto "Wake" Torres IV · Built with HTML, CSS &amp; vibes</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

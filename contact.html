@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wake Torres — Contact</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Wake Torres</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <p class="eyebrow">Get in touch</p>
+    <h1>Let's <span class="squiggle">talk</span>.</h1>
+    <p class="tagline">The fastest way to reach me is email or a quick text. I read everything and try to reply within a couple of days.</p>
+
+    <div class="contact-grid">
+      <ul class="contact-methods">
+        <li>
+          <span class="icon">✉️</span>
+          <div>
+            <span class="label">Email</span>
+            <a href="mailto:WakeT@ku.edu">WakeT@ku.edu</a>
+          </div>
+        </li>
+        <li>
+          <span class="icon">📞</span>
+          <div>
+            <span class="label">Phone</span>
+            <a href="tel:+13038156670">(303) 815-6670</a>
+          </div>
+        </li>
+        <li>
+          <span class="icon">💼</span>
+          <div>
+            <span class="label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/waketorres" target="_blank" rel="noopener">linkedin.com/in/waketorres</a>
+          </div>
+        </li>
+      </ul>
+
+      <aside class="contact-card">
+        <h3>A note before you write</h3>
+        <p>If you're reaching out about an internship or project, a quick line about <em class="highlight">what you're working on</em> and the rough timeline saves us both a few rounds of email. If you're just saying hi — even better. I love a good "hi".</p>
+        <p style="margin-top: 1rem; font-size: 0.95rem;">Based in Lawrence, KS · Originally from Denver, CO · Open to summer 2026 internships</p>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Adilberto "Wake" Torres IV · Built with HTML, CSS &amp; vibes</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

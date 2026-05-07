@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wake Torres — About</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Wake Torres</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <p class="eyebrow">About me</p>
+    <h1>Hey, I'm <span class="squiggle">delighted</span> you're here.</h1>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm Adilberto "Wake" Torres IV — a junior at the University of Kansas studying Marketing. I grew up in Denver, Colorado, and these days I split my attention between coursework in Lawrence and the kind of marketing problems that keep me up overthinking late at night (in a good way).</p>
+
+        <p>Most of my early experience has lived at the intersection of <em class="highlight">research, strategy, and storytelling</em>. At Next Generation HR in Missoula I learned how to turn raw industry data into something people actually want to read. At Casa Bonita in Denver — yes, that Casa Bonita — I learned how to lead a team during the kind of chaos only 2,500 daily guests can create. And right now, as a Marketing Consultant at Replay Lounge here in Lawrence, I'm helping rethink the brand's positioning from the ground up.</p>
+
+        <p>I like marketing because it's a puzzle with a personality. The fun part is figuring out who you're really talking to and why they should care — and then saying it in a way that doesn't feel like an ad.</p>
+
+        <h2>What I'm looking for</h2>
+        <p>I'm looking for summer 2026 internships in marketing, brand strategy, or market research — anywhere I can keep learning from people who do this well. If your team has a problem worth chewing on, I'd love to talk.</p>
+
+        <h2>Outside of work</h2>
+        <p>You can usually find me at a KU Investment Club meeting, playing roundnet (yes, Spikeball — I take it seriously), or trying to convince someone that Casa Bonita is a perfectly normal place to grow up around.</p>
+      </div>
+
+      <aside class="facts">
+        <h3>Quick facts</h3>
+        <ul>
+          <li><span>Based in</span><span>Lawrence, KS</span></li>
+          <li><span>From</span><span>Denver, CO</span></li>
+          <li><span>Studying</span><span>Marketing, KU</span></li>
+          <li><span>Graduating</span><span>May 2027</span></li>
+          <li><span>Currently</span><span>Replay Lounge</span></li>
+          <li><span>Loves</span><span>Brand strategy</span></li>
+          <li><span>Plays</span><span>Roundnet</span></li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Adilberto "Wake" Torres IV · Built with HTML, CSS &amp; vibes</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

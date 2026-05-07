@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wake Torres — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Wake Torres</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <p class="eyebrow">Selected work</p>
+    <h1>A few <span class="squiggle">things</span> I've worked on.</h1>
+    <p class="tagline">Marketing projects from internships, consulting work, and coursework. Each one taught me something different about how brands actually connect with people.</p>
+
+    <div class="portfolio-grid">
+
+      <article class="project">
+        <div class="thumb">🎸</div>
+        <div class="body">
+          <h3>Replay Lounge — Brand Repositioning</h3>
+          <p>Co-developed a new marketing strategy aimed at shifting the bar's existing demographic. Ran market research with Qualtrics and helped design both physical and online ads.</p>
+          <div class="tags">
+            <span class="tag">Strategy</span>
+            <span class="tag">Qualtrics</span>
+            <span class="tag">Advertising</span>
+          </div>
+          <a href="#" class="project-link">Coming soon</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="thumb">📊</div>
+        <div class="body">
+          <h3>Next Generation HR — Industry Research Decks</h3>
+          <p>Researched HR industry trends and built clear, presentation-ready slide decks for client and team-wide insights. Practiced turning messy data into a story.</p>
+          <div class="tags">
+            <span class="tag">Research</span>
+            <span class="tag">PowerPoint</span>
+            <span class="tag">Storytelling</span>
+          </div>
+          <a href="#" class="project-link">Coming soon</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="thumb">📱</div>
+        <div class="body">
+          <h3>Social Content Strategy — IG / FB / LinkedIn</h3>
+          <p>Helped develop and execute social media content across three platforms during my Next Gen HR internship, learning how voice and cadence shift between channels.</p>
+          <div class="tags">
+            <span class="tag">Social</span>
+            <span class="tag">Content</span>
+            <span class="tag">Canva</span>
+          </div>
+          <a href="#" class="project-link">Coming soon</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="thumb">🎤</div>
+        <div class="body">
+          <h3>Webinar &amp; Community Event Coordination</h3>
+          <p>Supported event planning for webinars and community outreach at Next Generation HR — from logistics to promo to making sure it actually went smoothly.</p>
+          <div class="tags">
+            <span class="tag">Events</span>
+            <span class="tag">Coordination</span>
+          </div>
+          <a href="#" class="project-link">Coming soon</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="thumb">🌮</div>
+        <div class="body">
+          <h3>Casa Bonita — Guest Experience</h3>
+          <p>Led a team of 4–8 GSAs during peak service, communicating with 2,500+ daily guests. Not classic marketing, but a masterclass in customer experience and brand-in-action.</p>
+          <div class="tags">
+            <span class="tag">Leadership</span>
+            <span class="tag">CX</span>
+          </div>
+          <a href="#" class="project-link">Coming soon</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="thumb">📈</div>
+        <div class="body">
+          <h3>KU Investment Club</h3>
+          <p>Active member at KU Investment Club, learning how markets, valuations, and storytelling around financial brands intersect with marketing strategy.</p>
+          <div class="tags">
+            <span class="tag">Finance</span>
+            <span class="tag">Extracurricular</span>
+          </div>
+          <a href="#" class="project-link">Coming soon</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Adilberto "Wake" Torres IV · Built with HTML, CSS &amp; vibes</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
